@@ -1,11 +1,7 @@
-import { useAPI } from "../contextAPI/apiContext";
-
 const ItemList = () => {
-  const { list } = useAPI();
-
   return (
     <ul>
-      {list.map((item) => (
+      {/* {list.map((item) => (
         <li
           key={item.id}
           style={{
@@ -18,7 +14,7 @@ const ItemList = () => {
           <div style={{ fontSize: 20, fontWeight: 800 }}>{item.name}</div>
           <div>{item.email}</div>
         </li>
-      ))}
+      ))} */}
     </ul>
   );
 };
